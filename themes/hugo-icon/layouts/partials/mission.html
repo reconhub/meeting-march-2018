@@ -15,29 +15,31 @@
 	{{ range .Site.Params.mission.item }}
 	{{ if eq .weight 1}}
 	<div class="fh5co-tab-content active" data-tab-content={{ .name }}>
-	{{ else }}
-	<div class="fh5co-tab-content" data-tab-content={{ .name }}>
-	{{ end }}
-	  <h2>{{ .subtitle }}</h2>
-	  {{ .description | markdownify }}
+	  {{ else }}
+	  <div class="fh5co-tab-content" data-tab-content={{ .name }}>
+	    {{ end }}
+	    <h2>{{ .subtitle }}</h2>
+	    {{ .description | markdownify }}
+	  </div>
+	  {{ end }}
+
+
 	</div>
-	{{ end }}
-
-
+	
       </div>
       
     </div>
     
-  </div>
-  
-  <div class="fh5co-2col fh5co-text">
-    <div class="fh5co-grid">
-      {{ if .Site.Params.mission.images.enable }}
-      {{ range .Site.Params.mission.images.list }}
-      <div class="fh5co-grid-item" style="background-image: url({{ with .img }}{{ . | absURL }}{{ end }});"></div>
-      {{ end }}
-      {{ end }}
-      
-    </div>
-  </div>
-</div> <!-- END fh5co-about -->
+    <!-- <div class="fh5co-2col fh5co-text"> -->
+    <!--   <div class="fh5co-grid"> -->
+    <!-- 	{{ if .Site.Params.mission.images.enable }} -->
+    <!-- 	{{ range .Site.Params.mission.images.list }} -->
+    <!-- 	<div class="fh5co-grid-item" style="background-image: url({{ with .img }}{{ . | absURL }}{{ end }});"></div> -->
+    <!-- 	{{ end }} -->
+    <!-- 	{{ end }} -->
+	
+    <!--   </div> -->
+    <!-- </div> -->
+
+    
+  </div> <!-- END fh5co-about -->
