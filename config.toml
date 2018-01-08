@@ -12,13 +12,13 @@ title = "RECON gathering"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/paddington-basin.jpg"
-  title = "RECON gathering #1"
-  description = "London, Paddington Basin, 22-23 March 2018"
+  title = "Challenges and opportunities in outbreak analytics"
+  description = "/// RECON gathering #1<br>/// London, Novotel Paddington, 22-23 March 2018"
 
 # Navigation section
 [params.nav]
   mission = "Practical info"
-  services = "Programme"
+  services = "Schedule"
   team = "Organisers"
   contact = "Register"
   # Include logo instead if HOME:
@@ -66,7 +66,7 @@ title = "RECON gathering"
     name = "contact"
     title = "Contact"
     subtitle = "For more information, use the contact provided below."
-    description = "<p><ul><li>organisation: <a href='mailto:thibautjombart@gmail.com'>Thibaut Jombart</a></ul></p>"
+    description = "Organisation: <p><ul><li><a href='mailto:thibautjombart@gmail.com'>Thibaut Jombart</a><li><a href='mailto:amrish.baidjoe@gmail.com'>Amrish Baidjoe</a></ul></p>"
 
   # [[params.mission.item]]
   #   weight = 5
@@ -203,6 +203,6 @@ title = "RECON gathering"
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>This event is co-funded by the Medical Research Council (MRC) Centre for Outbreak Analysis and Modelling, and the National Institute for Health Research - Health Protection Research Unit (NIHR-HPRU) for Modelling Methodology.</small></p><p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a> Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a>. Website by <a href='https://thibautjombart.netlify.com/'>Thibaut Jombart</a>.</small></p>"
+  note = "<p><a href='http://www.repidemicsconsortium.org/'><img src='http://www.repidemicsconsortium.org/img/logo.png' width='300px' alt='R Epidemics Consortium'><br>This event is organised by the R Epidemics Consortium</a></p><p><small>This event is co-funded by the Medical Research Council (MRC) Centre for Outbreak Analysis and Modelling, and the National Institute for Health Research - Health Protection Research Unit (NIHR-HPRU) for Modelling Methodology.</small></p><p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a>. Website by <a href='https://thibautjombart.netlify.com/'>Thibaut Jombart</a>.</small></p>"
   github = "https://github.com/reconhub/meeting-march-2018"
   
