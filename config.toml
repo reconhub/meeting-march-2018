@@ -150,7 +150,7 @@ title = "RECON gathering"
   [[params.team.item]]
     name = "Thibaut Jombart"
     position = "Lecturer, Imperial College London"
-    description = "Genetic epidemiology and outbreak response. Head of the R Epidemics Consortium (RECON)."
+    description = "Outbreak response analytics and head of RECON.<br><br>"
     img = "images/thibaut.jpg"
     # dribbble = "#"
     github = "https://github.com/thibautjombart"
@@ -165,23 +165,24 @@ title = "RECON gathering"
     # twitter = "#"
 
   [[params.team.item]]
+    name = "Julie Middleton"
+    position = "Senior Administrator, Imperial College London"
+    description = "Administrator of the MRC Centre for Outbreak Analysis and Modelling, and logistics guru for the event.<br><br>"
+    img = "images/julie.jpg"
+
+  [[params.team.item]]
     name = "Susannah Fisher"
     position = "Senior Administrator, Imperial College London"
-    description = "Administrator of the MRC Centre for Outbreak Analysis and Modelling, and logistics guru for the event."
+    description = "Administrator of the MRC Centre for Outbreak Analysis and Modelling, and logistics oracle for the event."
     img = "images/susannah.jpg"
-    # facebook = "#"
-    # twitter = "#"
-    # github = "#"
 
-  # [[params.team.item]]
-  #   name = "James Hayward"
-  #   position = "Senior Administrator, Imperial College London"
-  #   description = "Head administrator for the NIHR-HPRU, and logistics guru for the short course."
-  #   img = "images/james.jpg"
-  #   # facebook = "#"
-  #   # twitter = "#"
-  #   # github = "#"
+  [[params.team.item]]
+    name = "James Hayward"
+    position = "Senior Administrator, Imperial College London"
+    description = "Head administrator for the NIHR-HPRU and occasional logistics life-saver."
+    img = "images/james.jpg"
 
+ 
   # [[params.team.item]]
   #   name = "Jason Doe"
   #   position = "Chief haranguer"
