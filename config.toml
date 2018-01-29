@@ -58,8 +58,8 @@ title = "RECON gathering"
     weight = 3
     name = "register"
     title = "Register"
-    subtitle = "Please use the google form below to apply. Deadline for registration is 11th February 2018."
-    description = '<p>Google form coming soon.</p>'
+    subtitle = ""
+    description = '<p>Please <em>use the google form</em> below to apply, for follow <a href="https://goo.gl/forms/gwRZ27UuiUTCAlt63">this link</a> to open the form in a new page. Attendance will depend on availability and will be confirmed at a later stage. Deadline for registration is 11th February 2018.</p><p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBSa0p8Mkz2BgdssoaD5mul4GbFp0hIw3Tdb7hJTIpH2T1mg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></p>'
  
   [[params.mission.item]]
     weight = 4
