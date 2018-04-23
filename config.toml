@@ -71,20 +71,20 @@ title = "RECON gathering"
 
   [[params.mission.item]]
     weight = 5
-    name = "projects"
-    title = "Submit a project"
-    subtitle = "Want to discuss a project for the hackathon?"
-    description = "Are you a developper with specific skills that you'd like to advertise? Or do you have an idea about a new package to create? A new release you want to get ready for submission to CRAN? Or you may be a field epidemiologist with a case study you would like to share online? Use the <a href='https://github.com/RECON-gathering-March-2018/projects'>github issue system</a> to discuss projects and submit new ideas ahead of the hackathon. <a href='mailto:thibautjombart@gmail.com'>Send us</a> an email if you need special rights to access the events's <a href='https://github.com/RECON-gathering-March-2018/'>github organisation</a>."
-
-
-  [[params.mission.item]]
-    weight = 5
     name = "programme"
     title = "Programme"
     subtitle = "What is on the menu?"
     description = "Our programme is finally online! Download the pdf from <a href='https://recon-gathering-march2018.netlify.com/files/programme.pdf'>this link</a>."
 
- 
+
+[[params.mission.item]]
+    weight = 6
+    name = "presentations"
+    title = "Presentations"
+    subtitle = "Slides of some of the presentations of the event"
+    description = "<p>Introduction<ul><li><a href='https://recon-gathering-march2018.netlify.com/files/intro-thibaut-jombart.pdf'>Introduction: challenges and opportunities in outbreak response analytics</a> (Thibaut Jombart, ICL)</li><li><a href='https://recon-gathering-march2018.netlify.com/files/plenary-oliver-morgan.pptx'>Plenary: decision making in public health emergencies</a> (Oliver Morgan, WHO)</li></ul></p><p>Talks<ul><li><a href='https://recon-gathering-march2018.netlify.com/files/talk-anne-cori.pdf'>Mathematical modelling and outbreak response: lessons learnt from West African Ebola</a> (Anne Cori, ICL)</li><li><a href='https://recon-gathering-march2018.netlify.com/files/talk-gregory-armstrong.pptx'>Nucleotide sequencing in outbreak detection and response</a> (Gregory Armstrong, US CDC)</li><li><a href='https://recon-gathering-march2018.netlify.com/files/talk-amrish-baidjoe.pptx'>Current challenges with data analyses tools and training for field-epidemiologists</a> (Amrish Baidjoe, ICL)</li><li><a href='https://recon-gathering-march2018.netlify.com/files/talk-irina-czogiel.pptx'>Transition to R: pros and cons from an EU FETP perspective</a> (Irina Czogiel, RKI)</li></ul></p>"
+
+
   # [[params.mission.item]]
   #   weight = 5
   #   name = "scholarships"
